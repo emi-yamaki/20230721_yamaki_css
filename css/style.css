@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+    color: rgb(42, 42, 108);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.header-ttl {
+    font-size: 24px;
+    width: 80px;
+}
+
+.header-nav-list {
+    display: flex;
+    font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.main {
+    margin-top: 500px;
+}
+
+.main-text {
+    font-size: 65px;
+    font-weight: lighter;
+}
+
+.main-box {
+    width: 1000px;
+    height: 180px;
+    background-color: rgb(34, 34, 121);
+    position: relative;
+}
+
+.main-img {
+    position: absolute;
+    top: 200px;
+    left: 750px;
+}
+
+.main-img img {
+    width: 100%;
+}
